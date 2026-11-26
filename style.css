@@ -1,8 +1,18 @@
 .container {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    height: 300px;
     gap: 20px;
-    justify-content: space-between;    
+    flex-direction: row;
+}
+.navbar {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.link {
+    display:flex;
+    gap: 20px;
 }
